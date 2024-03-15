@@ -14,6 +14,8 @@ public:
 
 };
 
+//Kapsülleme iþlemi ile verilere eriþim denetim altýna alýnýr.
+
 void Student::displayInformation()
 {
 	cout << "Name:" << studentName << " " << studentSurname << endl;
