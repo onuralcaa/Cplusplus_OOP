@@ -3,12 +3,25 @@
 #include <iostream>
 using namespace std;
 
+/*
+	ERÝÞÝM BELÝRLEYÝCÝLER
+
+	private -> (VARSAYILAN) Class dýþýndan eriþilmez.yetkilendirme gerekli. main kýsmýndan eriþilemez.
+
+	protected -> Class'dan miras alan bir class tarafýndan eriþilebilir. Fakat main kýsmýndan yine de eriþilemez.
+
+	public -> Her yerden eriþilebilir.
+*/
+
+
+
 class Student
 {
-public:
 
-	string studentName, studentSurname, studentID; //üye deðiþkenler
 	
+
+public:
+	string studentName, studentSurname, studentID; //üye deðiþkenler
 	void displayInformation(); //üye fonksiyon
 
 
