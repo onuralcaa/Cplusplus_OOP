@@ -17,12 +17,53 @@ using namespace std;
 
 class Student
 {
-
-	
+private:
+	string studentName, studentSurname, studentID; //üye deðiþkenler
 
 public:
-	string studentName, studentSurname, studentID; //üye deðiþkenler
 	void displayInformation(); //üye fonksiyon
+
+	void setName(string name)
+	{
+		studentName = name;
+	}
+
+	void setSurname(string Surname)
+	{
+		studentSurname = Surname;
+	}
+
+	void setID(string ID)
+	{
+		studentID = ID;
+	}
+
+	//alternatif yöntem
+
+	void setInformation(string name, string surname, string ID )
+	{
+		studentName = name;
+		studentSurname = surname;
+		studentID = ID;
+	}
+
+
+
+
+	string getName()
+	{
+		return studentName;
+	}
+
+	string getSurname()
+	{
+		return studentSurname;
+	}
+
+	string getID()
+	{
+		return studentID;
+	}
 
 
 };

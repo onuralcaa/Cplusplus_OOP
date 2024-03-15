@@ -18,12 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,7 +28,7 @@
               "RelativeDocumentMoniker": "001_classConsept\\studentClass.h",
               "ToolTip": "C:\\Users\\onura\\OneDrive\\Masa\u00FCst\u00FC\\Ki\u015Fisel \u00C7al\u0131\u015Fmalar\u0131m\\C\u002B\u002B OOP\\001_classConsept\\studentClass.h",
               "RelativeToolTip": "001_classConsept\\studentClass.h",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAABAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAmwCYAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-03-15T20:10:37.114Z",
               "EditorCaption": ""
@@ -45,7 +41,7 @@
               "RelativeDocumentMoniker": "001_classConsept\\001_classConsept.cpp",
               "ToolTip": "C:\\Users\\onura\\OneDrive\\Masa\u00FCst\u00FC\\Ki\u015Fisel \u00C7al\u0131\u015Fmalar\u0131m\\C\u002B\u002B OOP\\001_classConsept\\001_classConsept.cpp",
               "RelativeToolTip": "001_classConsept\\001_classConsept.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAiAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAkwAwAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-15T20:10:49.764Z",
               "EditorCaption": ""
