@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\onura\\OneDrive\\Masa\u00FCst\u00FC\\Ki\u015Fisel \u00C7al\u0131\u015Fmalar\u0131m\\C \u00E7al\u0131\u015Fmalar\u0131m\\001_classConsept\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C59C4C6-9B16-4924-B82E-3E42520DE721}|001_classConsept.vcxproj|C:\\Users\\onura\\OneDrive\\Masa\u00FCst\u00FC\\Ki\u015Fisel \u00C7al\u0131\u015Fmalar\u0131m\\C \u00E7al\u0131\u015Fmalar\u0131m\\001_classConsept\\001_classConsept.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8C59C4C6-9B16-4924-B82E-3E42520DE721}|001_classConsept.vcxproj|solutionrelative:001_classConsept.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C59C4C6-9B16-4924-B82E-3E42520DE721}|001_classConsept.vcxproj|C:\\Users\\onura\\OneDrive\\Masa\u00FCst\u00FC\\Ki\u015Fisel \u00C7al\u0131\u015Fmalar\u0131m\\C \u00E7al\u0131\u015Fmalar\u0131m\\001_classConsept\\studentClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8C59C4C6-9B16-4924-B82E-3E42520DE721}|001_classConsept.vcxproj|solutionrelative:studentClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "studentClass.h",
+              "DocumentMoniker": "C:\\Users\\onura\\OneDrive\\Masa\u00FCst\u00FC\\Ki\u015Fisel \u00C7al\u0131\u015Fmalar\u0131m\\C \u00E7al\u0131\u015Fmalar\u0131m\\001_classConsept\\studentClass.h",
+              "RelativeDocumentMoniker": "studentClass.h",
+              "ToolTip": "C:\\Users\\onura\\OneDrive\\Masa\u00FCst\u00FC\\Ki\u015Fisel \u00C7al\u0131\u015Fmalar\u0131m\\C \u00E7al\u0131\u015Fmalar\u0131m\\001_classConsept\\studentClass.h",
+              "RelativeToolTip": "studentClass.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-15T20:03:28.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "001_classConsept.cpp",
+              "DocumentMoniker": "C:\\Users\\onura\\OneDrive\\Masa\u00FCst\u00FC\\Ki\u015Fisel \u00C7al\u0131\u015Fmalar\u0131m\\C \u00E7al\u0131\u015Fmalar\u0131m\\001_classConsept\\001_classConsept.cpp",
+              "RelativeDocumentMoniker": "001_classConsept.cpp",
+              "ToolTip": "C:\\Users\\onura\\OneDrive\\Masa\u00FCst\u00FC\\Ki\u015Fisel \u00C7al\u0131\u015Fmalar\u0131m\\C \u00E7al\u0131\u015Fmalar\u0131m\\001_classConsept\\001_classConsept.cpp",
+              "RelativeToolTip": "001_classConsept.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-15T19:53:15.857Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
