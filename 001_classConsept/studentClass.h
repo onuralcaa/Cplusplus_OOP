@@ -21,6 +21,12 @@ private:
 	string studentName, studentSurname, studentID; //üye deðiþkenler
 
 public:
+
+	//constructor konusu (parametreli, parametresiz olarak ikiye ayrýlýr.)
+
+	Student();
+
+
 	void displayInformation(); //üye fonksiyon
 
 	void setName(string name)
@@ -47,9 +53,6 @@ public:
 		studentID = ID;
 	}
 
-
-
-
 	string getName()
 	{
 		return studentName;
@@ -64,12 +67,18 @@ public:
 	{
 		return studentID;
 	}
-
-
 };
 
-//Kapsülleme iþlemi ile verilere eriþim denetim altýna alýnýr.
+Student::Student()
+{
+	cout << "Default constructor worked." << endl;
+	studentName = "None";
+	studentSurname = "None";
+	studentID = "None";
+}
 
+
+//Kapsülleme iþlemi ile verilere eriþim denetim altýna alýnýr.
 void Student::displayInformation()
 {
 	cout << "Name:" << studentName << " " << studentSurname << endl;

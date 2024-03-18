@@ -8,9 +8,14 @@ int main()
     Student student1; //Student sınıfından bir nesne üretilmesi
     Student student2; //nesne 2
 
+    Student studentArray[5]; //oluşturulan her bir nesne için constructor çalışır.
+    //Nesne oluştururken constructor parametre gönderebiliriz.
+
+    /*
     student1.setName("Murat");
     student1.setSurname("OGUN");
     student1.setID("425");
+    */
 
     string name = student1.getName();
     string surname = student1.getSurname();
