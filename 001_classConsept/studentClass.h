@@ -18,6 +18,7 @@ using namespace std;
 class Student
 {
 private:
+
 	string studentName, studentSurname, studentID; //üye deðiþkenler
 
 public:
@@ -27,6 +28,8 @@ public:
 	Student();
 	Student(string, string);
 	Student(string, string, string);
+
+	~Student(); //destructor tanýmý...BÝR SINIFTA BÝR KEZ DESTRUCTOR TANIMLANABÝLÝR.
 
 	void displayInformation(); //üye fonksiyon
 
@@ -93,6 +96,15 @@ Student::Student(string name, string surname)
 	studentSurname = surname;
 	studentID = "None";
 }
+
+Student::~Student() 
+{
+	cout << "Destructor worked." << endl;
+
+}
+
+
+
 
 
 //Kapsülleme iþlemi ile verilere eriþim denetim altýna alýnýr.

@@ -33,6 +33,11 @@ int main()
     student2.setInformation("Hakan", "KORNAK", "5243");
     student2.displayInformation();
  
+    if (true)
+    {
+        Student student5; //lokal olarak oluşturulup yok edildiğinden yapıcı ve yıkıcı fonksiyonları arka arkaya çalışır.
+    }
 
+    cout << "Student5";
     return 0;
 }
