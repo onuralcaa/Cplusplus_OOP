@@ -11,9 +11,12 @@ public:
 	~Triangle();
 	Triangle(const Triangle& oth);
 	bool isTriangle(float a, float b, float c);
-	float getSideA();
-	float getSideB();
-	float getSideC();
+
+	//inputtan baðýmsýz çalýþabilmesi için const tanýmlanmýþtýr.
+	float getSideA() const { return sideA; }
+	float getSideB() const { return sideB; }
+	float getSideC() const { return sideC; }
+
 	void setValue(float a, float b, float c);
 	bool isEquilateral();
 	bool isScalene();
@@ -51,6 +54,19 @@ Triangle::Triangle(const Triangle& oth)
 	sideC = oth.sideC;
 
 	cout << "Triangle copied to target." << endl;
+}
+
+void Triangle::setValue(float a, float b, float c)
+{
+	while (!isTriangle(a, b, c))
+	{
+		cout << "Please enter the sides (a-b-c)" << endl;
+		cin >> a >> b >> c;
+	}
+
+	sideA = a;
+	sideB = b;
+	sideC = c;
 }
 
 bool Triangle::isTriangle(float a, float b, float c)

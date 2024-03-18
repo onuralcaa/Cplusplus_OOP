@@ -13,6 +13,16 @@ int main()
     Triangle triangle2(triangle1); //copy test
     //Triangle triangle3 = triangle1; //alternatif copy test
 
+    cout << "---Triangle 1--- " << endl;
+    cout << "side A:" << triangle1.getSideA() << endl;
+    cout << "side B:" << triangle1.getSideB() << endl;
+    cout << "side C:" << triangle1.getSideC() << endl;
+
+    triangle2.setValue(12, 16, 3);
+    cout << "---Triangle 2--- " << endl;
+    cout << "side A:" << triangle2.getSideA() << endl;
+    cout << "side B:" << triangle2.getSideB() << endl;
+    cout << "side C:" << triangle2.getSideC() << endl;
 
     return 0;
 }
