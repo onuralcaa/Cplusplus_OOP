@@ -18,11 +18,11 @@ public:
 	float getSideC() const { return sideC; }
 
 	void setValue(float a, float b, float c);
-	bool isEquilateral();
-	bool isScalene();
-	bool isIsosceles();
-	void triangleType();
-	float calculateArea();
+	bool isEquilateral(); //eþkenar mý ?
+	bool isScalene(); //çeþitkenar mý ?
+	bool isIsosceles(); //ikizkenar mý ?
+	void triangleType(); //üçgen tipi ? 
+	float calculateArea(); //alan hesabý...
 
 private:
 	float sideA, sideB, sideC;
@@ -96,3 +96,40 @@ bool Triangle::isTriangle(float a, float b, float c)
 
 	return true; //kenar bilgileri ile bir üçgen oluþturulabilir.
 }
+
+bool Triangle::isEquilateral()
+{
+	return sideA == sideB && sideC == sideB;
+}
+
+bool Triangle::isIsosceles()
+{
+	if (isEquilateral()) return true; //kýsaltma(mantýktan)
+
+	else
+	{
+		return sideA == sideB || sideB == sideC || sideA == sideC;
+	}
+}
+
+bool Triangle::isScalene()
+{
+	return !isEquilateral();
+}
+
+void Triangle::triangleType()
+{
+	if (isEquilateral()) cout << "Eqilatreal triangle." << endl;
+	else if (isIsosceles()) cout << "Isosceles triangle." << endl;
+	else cout << "Scelene triangle." << endl;
+}
+
+
+
+
+
+
+
+
+
+

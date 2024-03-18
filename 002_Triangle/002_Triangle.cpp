@@ -18,11 +18,17 @@ int main()
     cout << "side B:" << triangle1.getSideB() << endl;
     cout << "side C:" << triangle1.getSideC() << endl;
 
-    triangle2.setValue(12, 16, 3);
+    triangle2.setValue(5, 5, 5); //eşkenar
     cout << "---Triangle 2--- " << endl;
     cout << "side A:" << triangle2.getSideA() << endl;
     cout << "side B:" << triangle2.getSideB() << endl;
     cout << "side C:" << triangle2.getSideC() << endl;
+
+
+    triangle1.triangleType();
+    triangle2.triangleType();
+
+
 
     return 0;
 }

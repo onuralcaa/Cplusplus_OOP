@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\onura\\OneDrive\\Masa\u00FCst\u00FC\\Ki\u015Fisel \u00C7al\u0131\u015Fmalar\u0131m\\C\u002B\u002B OOP\\002_Triangle\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4FE89773-594C-4219-8C67-297812A7631A}|002_Triangle.vcxproj|C:\\Users\\onura\\OneDrive\\Masa\u00FCst\u00FC\\Ki\u015Fisel \u00C7al\u0131\u015Fmalar\u0131m\\C\u002B\u002B OOP\\002_Triangle\\Triangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4FE89773-594C-4219-8C67-297812A7631A}|002_Triangle.vcxproj|solutionrelative:Triangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4FE89773-594C-4219-8C67-297812A7631A}|002_Triangle.vcxproj|C:\\Users\\onura\\OneDrive\\Masa\u00FCst\u00FC\\Ki\u015Fisel \u00C7al\u0131\u015Fmalar\u0131m\\C\u002B\u002B OOP\\002_Triangle\\002_Triangle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4FE89773-594C-4219-8C67-297812A7631A}|002_Triangle.vcxproj|solutionrelative:002_Triangle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FE89773-594C-4219-8C67-297812A7631A}|002_Triangle.vcxproj|C:\\Users\\onura\\OneDrive\\Masa\u00FCst\u00FC\\Ki\u015Fisel \u00C7al\u0131\u015Fmalar\u0131m\\C\u002B\u002B OOP\\002_Triangle\\Triangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4FE89773-594C-4219-8C67-297812A7631A}|002_Triangle.vcxproj|solutionrelative:Triangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Triangle.h",
               "DocumentMoniker": "C:\\Users\\onura\\OneDrive\\Masa\u00FCst\u00FC\\Ki\u015Fisel \u00C7al\u0131\u015Fmalar\u0131m\\C\u002B\u002B OOP\\002_Triangle\\Triangle.h",
               "RelativeDocumentMoniker": "Triangle.h",
               "ToolTip": "C:\\Users\\onura\\OneDrive\\Masa\u00FCst\u00FC\\Ki\u015Fisel \u00C7al\u0131\u015Fmalar\u0131m\\C\u002B\u002B OOP\\002_Triangle\\Triangle.h",
               "RelativeToolTip": "Triangle.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEQAAAALAAAA",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAmwHsAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-03-18T18:14:27.574Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "002_Triangle.cpp",
               "DocumentMoniker": "C:\\Users\\onura\\OneDrive\\Masa\u00FCst\u00FC\\Ki\u015Fisel \u00C7al\u0131\u015Fmalar\u0131m\\C\u002B\u002B OOP\\002_Triangle\\002_Triangle.cpp",
               "RelativeDocumentMoniker": "002_Triangle.cpp",
               "ToolTip": "C:\\Users\\onura\\OneDrive\\Masa\u00FCst\u00FC\\Ki\u015Fisel \u00C7al\u0131\u015Fmalar\u0131m\\C\u002B\u002B OOP\\002_Triangle\\002_Triangle.cpp",
               "RelativeToolTip": "002_Triangle.cpp",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-18T18:13:56.118Z",
               "EditorCaption": ""
