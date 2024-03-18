@@ -5,8 +5,8 @@
 
 int main()
 {
-    Student student1; //Student sınıfından bir nesne üretilmesi
-    Student student2; //nesne 2
+    Student student1("Osman", "ALACA"); //Parametreli olarak çağrıldı.
+    Student student2("Duygu", "KARA", "432"); //nesne 2
 
     Student studentArray[5]; //oluşturulan her bir nesne için constructor çalışır.
     //Nesne oluştururken constructor parametre gönderebiliriz.

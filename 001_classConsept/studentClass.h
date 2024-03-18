@@ -25,7 +25,8 @@ public:
 	//constructor konusu (parametreli, parametresiz olarak ikiye ayrýlýr.)
 
 	Student();
-
+	Student(string, string);
+	Student(string, string, string);
 
 	void displayInformation(); //üye fonksiyon
 
@@ -74,6 +75,22 @@ Student::Student()
 	cout << "Default constructor worked." << endl;
 	studentName = "None";
 	studentSurname = "None";
+	studentID = "None";
+}
+
+Student::Student(string name, string surname, string ID)
+{
+	cout << "Constructor 3 parameters worked." << endl;
+	studentName = name;
+	studentSurname = surname;
+	studentID = ID;
+}
+
+Student::Student(string name, string surname)
+{
+	cout << "Constructor 2 parameters worked." << endl;
+	studentName = name;
+	studentSurname = surname;
 	studentID = "None";
 }
 
