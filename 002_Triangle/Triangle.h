@@ -124,7 +124,18 @@ void Triangle::triangleType()
 	else cout << "Scelene triangle." << endl;
 }
 
-
+float Triangle::calculateArea()
+{
+	float area;
+	if (isEquilateral())
+	{
+		area = (pow(sideA, 2) * sqrt(3) / 4);
+		return area;
+	}
+	float s = (sideA + sideB + sideC) / 2;
+	area = sqrt(s * (s - sideA) * (s - sideB) * (s - sideC));
+	return area;
+}
 
 
 

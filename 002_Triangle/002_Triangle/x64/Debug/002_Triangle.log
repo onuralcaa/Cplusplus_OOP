@@ -1,2 +1,5 @@
 ﻿  002_Triangle.cpp
+C:\Users\onura\OneDrive\Masaüstü\Kişisel Çalışmalarım\C++ OOP\002_Triangle\Triangle.h(132,35): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '002_Triangle.cpp')
+  
   002_Triangle.vcxproj -> C:\Users\onura\OneDrive\Masaüstü\Kişisel Çalışmalarım\C++ OOP\002_Triangle\x64\Debug\002_Triangle.exe
