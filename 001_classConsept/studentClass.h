@@ -30,6 +30,7 @@ public:
 	Student(string, string, string);
 
 	~Student(); //destructor tanýmý...BÝR SINIFTA BÝR KEZ DESTRUCTOR TANIMLANABÝLÝR.
+	Student(const Student& oth); //Copy cons lar parametre olarak baþka bir nesnenin adresini alýrlar.
 
 	void displayInformation(); //üye fonksiyon
 
@@ -103,6 +104,13 @@ Student::~Student()
 
 }
 
+Student::Student(const Student& oth)
+{
+	cout << "Copy constructor worked."<<endl;
+	studentName = oth.studentName;
+	studentSurname = oth.studentSurname;
+	studentID = oth.studentID;
+}
 
 
 

@@ -8,6 +8,9 @@ int main()
     Student student1("Osman", "ALACA"); //Parametreli olarak çağrıldı.
     Student student2("Duygu", "KARA", "432"); //nesne 2
 
+    Student student3(student2); //student1 nesnesinin özellikeriyle bir student3 nesnesi oluşturmak.
+
+    student3.displayInformation();
     Student studentArray[5]; //oluşturulan her bir nesne için constructor çalışır.
     //Nesne oluştururken constructor parametre gönderebiliriz.
 
@@ -38,6 +41,5 @@ int main()
         Student student5; //lokal olarak oluşturulup yok edildiğinden yapıcı ve yıkıcı fonksiyonları arka arkaya çalışır.
     }
 
-    cout << "Student5";
     return 0;
 }
