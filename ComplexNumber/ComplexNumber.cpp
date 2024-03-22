@@ -32,10 +32,13 @@ int main()
 
 	cout << "----------------------------------------------" << endl;
 	complexNumber resultMain3;
-	resultMain3 = number2.multiplyConstant(4);
+	resultMain3 = number2.multiplyConstant(7);
 	resultMain3.displayComplex();
 
-
+	cout << "----------------------------------------------" << endl;
+	complexNumber resultMain4;
+	resultMain4 = number1.multiplyComplex(number2);
+	resultMain4.displayComplex();
 
 	return 0;
 }

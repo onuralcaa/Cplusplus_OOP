@@ -94,3 +94,12 @@ complexNumber complexNumber::multiplyConstant(int constant)
 	return result;
 }
 //3*(4+5i)= 12 + 15i sonucunu vermeli.
+
+complexNumber complexNumber::multiplyComplex(const complexNumber& oth)
+{
+	complexNumber result;
+	//Hazýr förmül kullanýldý.
+	result.real = real * oth.real - imag * oth.imag;
+	result.imag = real * oth.imag - imag * oth.real;
+	return result;
+}
