@@ -30,5 +30,12 @@ int main()
 	resultMain2 = number1.subtractComplex(number2);
 	resultMain2.displayComplex();
 
+	cout << "----------------------------------------------" << endl;
+	complexNumber resultMain3;
+	resultMain3 = number2.multiplyConstant(4);
+	resultMain3.displayComplex();
+
+
+
 	return 0;
 }

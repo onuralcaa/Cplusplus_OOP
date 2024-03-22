@@ -84,3 +84,13 @@ void complexNumber::multiplyMinus()
 	real *= -1;
 	imag *= -1;
 }
+
+complexNumber complexNumber::multiplyConstant(int constant)
+{
+	complexNumber result;
+	result.real = real * constant;
+	result.imag = imag * constant;
+
+	return result;
+}
+//3*(4+5i)= 12 + 15i sonucunu vermeli.
