@@ -23,7 +23,7 @@ public:
 	void setValue(int r = 0, int i = 0);
 	complexNumber addComplex(const complexNumber& oth);
 	complexNumber multiplyComplex(const complexNumber& oth);
-	complexNumber subtractComplex(const complexNumber& oth);
+	complexNumber subtractComplex(complexNumber& oth);
 	complexNumber multiplyConstant(int constant);
 	void multiplyMinus();
 	void displayComplex();
@@ -61,7 +61,26 @@ void complexNumber::displayComplex()
 	imag >= 0 ? cout << real << "+" << imag << "i" << endl : cout << real << imag << "i" << endl; //kısa if-else yapısı
 }
 
+complexNumber complexNumber::addComplex(const complexNumber& oth)
+{
+	complexNumber result;
+	result.real = real + oth.real;
+	result.imag = imag + oth.imag;
 
+	return result;
+}
+//karmaşık sayı toplama formülü kullanıldı.
 
+complexNumber complexNumber::subtractComplex(complexNumber& oth)
+{
+	complexNumber result;
+	oth.multiplyMinus(); //eksi alma fonksiyonu
+	result = addComplex(oth);
+	return result;
+}
 
-
+void complexNumber::multiplyMinus()
+{
+	real *= -1;
+	imag *= -1;
+}

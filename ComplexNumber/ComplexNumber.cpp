@@ -20,6 +20,11 @@ int main()
 	number3.setValue(4, -7);
 	number3.displayComplex();
 
+	cout << "----------------------------------------------" << endl;
+	complexNumber resultMain;
+	resultMain = number1.addComplex(number2);
+	resultMain.displayComplex();
+
 
 
 	return 0;
