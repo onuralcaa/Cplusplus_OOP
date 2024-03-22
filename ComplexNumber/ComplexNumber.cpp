@@ -25,7 +25,10 @@ int main()
 	resultMain = number1.addComplex(number2);
 	resultMain.displayComplex();
 
-
+	cout << "----------------------------------------------" << endl;
+	complexNumber resultMain2;
+	resultMain2 = number1.subtractComplex(number2);
+	resultMain2.displayComplex();
 
 	return 0;
 }
