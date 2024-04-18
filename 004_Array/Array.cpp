@@ -16,7 +16,27 @@ int main()
     cout << "Capacity :" << mainArray2.getCapacity() << endl;
     cout << "Size :" << mainArray2.getSize() << endl;
 
+    mainArray.AddItem(5);
+    mainArray.AddItem(52);
+    mainArray.AddItem(32);
+    mainArray.AddItem(12);
+    mainArray.AddItem(7);
+    mainArray.AddItem(4);
+    mainArray.AddItem(67);
+    mainArray.AddItem(22);
+    mainArray.AddItem(82);
+    mainArray.AddItem(2);
+    mainArray.printItems();
+    mainArray.AddItem(8);
+    mainArray.printItems();
 
+    Array mainArray3 = mainArray;
+    mainArray.printItems();
+    mainArray3.AddItem(43);
+    mainArray3.AddItem(53);
+
+    mainArray3.printItems();
+    mainArray.printItems();
 
     return 0;
 }

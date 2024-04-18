@@ -17,7 +17,7 @@ public:
 	int getCapacity() const {
 		return capacity;
 	}
-	int AddItem(int number);
+	void AddItem(int number);
 	void printItems();
 	void removeIndexItems(int index);
 	void removeItem(int number);
@@ -48,4 +48,34 @@ Array::Array(const Array& copyArray)
 		data[i] = copyArray.data[i];
 	}
 	cout << "Array copied to Target. " << endl;
+}
+
+ void Array::AddItem(int number)
+{
+	if (size == capacity)
+	{
+		int* temp_data = new int[capacity * 2]; //geçici yer ayýrma iþlemi
+		for (int i = 0; i < size; i++)
+		{
+			temp_data[i] = data[i];
+		}
+		delete[] data;
+		data = temp_data;
+		capacity *= 2;//kapasiteyi iki katýna çýkartma iþlemi
+	}
+
+	data[size] = number;
+	size++;
+}
+
+void Array::printItems()
+{
+	if (size != 0)
+	{
+		for (int i = 0; i < size ; i++)
+		{
+			cout << data[i] << "-";
+		}
+	}
+	cout << "\n" << "capacity:" << capacity << " size :" << size << endl;
 }
