@@ -1,3 +1,0 @@
-﻿  ComplexNumber.cpp
-C:\Users\onura\OneDrive\Masaüstü\Kişisel Çalışmalarım\C++ OOP\ComplexNumber\ComplexNumber.cpp(8,24): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-  ComplexNumber.vcxproj -> C:\Users\onura\OneDrive\Masaüstü\Kişisel Çalışmalarım\C++ OOP\ComplexNumber\x64\Debug\ComplexNumber.exe
