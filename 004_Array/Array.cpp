@@ -18,14 +18,17 @@ int main()
 
     mainArray.AddItem(5);
     mainArray.AddItem(52);
+    mainArray.AddItem(7);
     mainArray.AddItem(32);
     mainArray.AddItem(12);
     mainArray.AddItem(7);
     mainArray.AddItem(4);
     mainArray.AddItem(67);
+    mainArray.AddItem(7);
     mainArray.AddItem(22);
     mainArray.AddItem(82);
     mainArray.AddItem(2);
+    mainArray.AddItem(7);
     mainArray.printItems();
     mainArray.AddItem(8);
     mainArray.printItems();
@@ -36,6 +39,12 @@ int main()
     mainArray3.AddItem(53);
 
     mainArray3.printItems();
+    mainArray.printItems();
+
+    mainArray3.removeIndexItems(1);
+    mainArray3.printItems();
+
+    mainArray.removeItem(67);
     mainArray.printItems();
 
     return 0;

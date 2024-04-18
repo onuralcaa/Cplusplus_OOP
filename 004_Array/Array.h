@@ -79,3 +79,40 @@ void Array::printItems()
 	}
 	cout << "\n" << "capacity:" << capacity << " size :" << size << endl;
 }
+
+void Array::removeIndexItems(int index)
+{
+	if (index < 0 || index >= size)
+	{
+		cout << "ERROR, No item at the index " << index << endl;
+		return;
+	}
+
+	//kaydýrma mantýðý ile silme iþlemi
+	int removeItem = data[index]; //silinen elemaný yazdýrmak için...
+	for (int  i = index; i < size; i++ )
+	{
+		data[i] = data[i + 1];
+	}
+	size--;
+	cout << "Item " << removeItem << " is deleted" << endl; 
+}
+
+void Array::removeItem(int number)
+{
+	//Kullanýcýnýn girdiði elemaný silme
+	int counter = 0; //silinen eleman sayýsý
+	for (int i = 0; i < size; i++)
+	{
+		if (data[i] == number)
+		{
+			for (int j = i; j < size; j++)
+			{
+				data[j] = data[j + 1];
+			}
+			counter++;
+		}
+	}
+	cout << counter << " Items(" << number << ")" << "are deleted from the Arrays" << endl;
+	size -= counter;
+}
