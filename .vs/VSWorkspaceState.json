@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\004_Array",
+    "\\004_Array\\Array\\x64\\Debug\\Array.tlog"
   ],
-  "SelectedNode": "\\003_ComplexNumber",
+  "SelectedNode": "\\004_Array\\Array",
   "PreviewInSolutionExplorer": false
 }
