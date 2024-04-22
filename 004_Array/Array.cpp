@@ -47,5 +47,7 @@ int main()
     mainArray.removeItem(67);
     mainArray.printItems();
 
+    mainArray3.findElement(12, 2); //aramaya 2. indexten başlanacak.
+
     return 0;
 }

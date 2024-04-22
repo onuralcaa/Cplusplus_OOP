@@ -117,3 +117,24 @@ void Array::removeItem(int number)
 	cout << counter << " Items(" << number << ")" << "are deleted from the Arrays" << endl;
 	size -= counter;
 }
+
+int Array::findIndex(int number, int index) //kullanýcý bu fonk a erisemez.
+{
+	for (int i = index; i<size; i++)
+	{
+		if (data[i] == number)
+		{
+			return i;
+		}
+	}
+	return -1; //sayý bulunmazsa -1 döndür.
+}
+
+void Array::findElement(int number, int index)
+{
+	int result = findIndex(number, index);
+
+	if (result != -1) cout << number << "Found at index." << result << endl;
+
+	else cout << "Not found at the array" << endl;
+}
