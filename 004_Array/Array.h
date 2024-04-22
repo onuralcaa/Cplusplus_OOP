@@ -111,6 +111,7 @@ void Array::removeItem(int number)
 				data[j] = data[j + 1];
 			}
 			counter++;
+			i -= 1;//birden fazla tekrar eden sayılar için
 		}
 	}
 	cout << counter << " Items(" << number << ")" << "are deleted from the Arrays" << endl;
