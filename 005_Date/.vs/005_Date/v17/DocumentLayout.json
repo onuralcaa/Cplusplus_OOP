@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\onura\\OneDrive\\Masa\u00FCst\u00FC\\Ki\u015Fisel \u00C7al\u0131\u015Fmalar\u0131m\\C\u002B\u002B OOP\\005_Date\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{411AFE75-944B-4C38-B491-61332473F348}|005_Date.vcxproj|C:\\Users\\onura\\OneDrive\\Masa\u00FCst\u00FC\\Ki\u015Fisel \u00C7al\u0131\u015Fmalar\u0131m\\C\u002B\u002B OOP\\005_Date\\005_Date.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{411AFE75-944B-4C38-B491-61332473F348}|005_Date.vcxproj|solutionrelative:005_Date.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{411AFE75-944B-4C38-B491-61332473F348}|005_Date.vcxproj|C:\\Users\\onura\\OneDrive\\Masa\u00FCst\u00FC\\Ki\u015Fisel \u00C7al\u0131\u015Fmalar\u0131m\\C\u002B\u002B OOP\\005_Date\\Date.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{411AFE75-944B-4C38-B491-61332473F348}|005_Date.vcxproj|solutionrelative:Date.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Date.h",
+              "DocumentMoniker": "C:\\Users\\onura\\OneDrive\\Masa\u00FCst\u00FC\\Ki\u015Fisel \u00C7al\u0131\u015Fmalar\u0131m\\C\u002B\u002B OOP\\005_Date\\Date.h",
+              "RelativeDocumentMoniker": "Date.h",
+              "ToolTip": "C:\\Users\\onura\\OneDrive\\Masa\u00FCst\u00FC\\Ki\u015Fisel \u00C7al\u0131\u015Fmalar\u0131m\\C\u002B\u002B OOP\\005_Date\\Date.h",
+              "RelativeToolTip": "Date.h",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-27T20:12:37.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "005_Date.cpp",
+              "DocumentMoniker": "C:\\Users\\onura\\OneDrive\\Masa\u00FCst\u00FC\\Ki\u015Fisel \u00C7al\u0131\u015Fmalar\u0131m\\C\u002B\u002B OOP\\005_Date\\005_Date.cpp",
+              "RelativeDocumentMoniker": "005_Date.cpp",
+              "ToolTip": "C:\\Users\\onura\\OneDrive\\Masa\u00FCst\u00FC\\Ki\u015Fisel \u00C7al\u0131\u015Fmalar\u0131m\\C\u002B\u002B OOP\\005_Date\\005_Date.cpp",
+              "RelativeToolTip": "005_Date.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-27T20:11:50.234Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
