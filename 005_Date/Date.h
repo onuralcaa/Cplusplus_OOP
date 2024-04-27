@@ -12,9 +12,19 @@ public:
 	void setDay(int d);
 	void setMonth(int m);
 	void setYear(int y);
-	int getDay() const;
-	int getMonth() const;
-	int getYear() const;
+	int getDay() const
+	{
+		return day;
+	}
+	int getMonth() const
+	{
+		return month;
+	}
+	int getYear() const
+	{
+		return year;
+	}
+
 	void increaseDay();
 	void compareDate(const Date& othDate);
 	void displayDate();
@@ -25,3 +35,89 @@ private:
 	const string monthString[12] = {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
 
 };
+
+Date::Date(int d, int m, int y)
+{
+	setDate(d,m,y);
+}
+
+Date ::~Date()
+{
+	cout << "Date destroyed." << endl;
+}
+
+Date::Date(const Date& oth)
+{
+	day = oth.day;
+	month = oth.month;
+	year = oth.year;
+
+	cout << "Date copied to target" << endl;
+}
+
+void Date::setDay(int d)
+{
+	if (d >= 1 && d <= monthDays[month - 1])
+	{
+		day = d;
+	}
+	else
+	{
+		day = 1;
+	}
+}
+
+void Date::setMonth(int m)
+{
+	if (m >= 1 && m <= m <= 12)
+	{
+		month = m;
+	}
+	else
+	{
+		month = 1;
+	}
+}
+
+void Date::setYear(int y)
+{
+	if (y >= 1900)
+	{
+		year = y;
+	}
+	else 
+	{
+		year = 1900;
+	}
+}
+
+
+void Date::setDate(int d, int m, int y)
+{
+	setMonth(m);
+	setDay(d);
+	setYear(y);
+}
+
+void Date::displayDate()
+{
+	cout << day << " " << monthString[month - 1] << " " << year << endl;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

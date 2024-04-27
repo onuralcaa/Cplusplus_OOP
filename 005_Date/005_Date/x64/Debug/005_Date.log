@@ -1,2 +1,5 @@
 ﻿  005_Date.cpp
+C:\Users\onura\OneDrive\Masaüstü\Kişisel Çalışmalarım\C++ OOP\005_Date\Date.h(72,18): warning C4804: '<=': unsafe use of type 'bool' in operation
+  (compiling source file '005_Date.cpp')
+  
   005_Date.vcxproj -> C:\Users\onura\OneDrive\Masaüstü\Kişisel Çalışmalarım\C++ OOP\005_Date\x64\Debug\005_Date.exe
