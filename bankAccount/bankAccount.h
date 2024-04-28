@@ -6,9 +6,9 @@ using namespace std;
 class bankAccount {
 public:
 
-	bankAccount(string name, string surname, float balance = 0, string phone_number = "");
-	bankAccount(const bankAccount& oth);
-	~bankAccount();
+	bankAccount(string name, string surname, float balance = 0, string phone_number = ""); //cons
+	bankAccount(const bankAccount& oth); //copy cons
+	~bankAccount(); //dest
 	bool controlNameSurname(string nameOrSurname);
 	bool controlPhoneNumber(string PhoneNumber);
 	void displayProfile();
@@ -19,16 +19,23 @@ public:
 	void setPersonSurname(string surname);
 	void setPersonPhone(string phone);
 	void setBalance(float balance = 0);
-	int getPersonName() const
+
+	string getPersonName() const
 	{
-	
+		return personName;
 	}
-	int getPersonSurname() const;
-	int getPersonPhone() const;
+    string getPersonSurname() const
+	{
+		return personSurname;
+	}
+	string getPersonPhone() const
+	{
+		return personPhone;
+	}
 
 private:
 	float accountBalance;
-	string personName, personeSurname, personPhone;
+	string personName, personSurname, personPhone;
 
 };
 
@@ -40,27 +47,70 @@ bankAccount::bankAccount(string name, string surname, float balance, string phon
 
 }
 
+bankAccount::bankAccount(const bankAccount& oth)
+{
+	personName = oth.personName;
+	personSurname = oth.personSurname;
+	personPhone = oth.personPhone;
+
+	cout << "Bank Accoount infos are copied." << endl;
+}
+
 bankAccount::~bankAccount()
 {
 	cout << "Account destroyed..." << endl;
 }
 
-bool bankAccount::controlNameSurname(string name)
+bool bankAccount::controlNameSurname(string nameorsurname)
 {
-	for (int i = 0; i < name.length(); i++)
+	for (unsigned i = 0; i < nameorsurname.length(); i++)
 	{
-		if (!isalpha(name[i])) 
-			return false;
+		if (!((nameorsurname.at(i) >= 'A' && nameorsurname.at(i) <= 'Z') || (nameorsurname.at(i) >= 'a' && nameorsurname.at(i) <= 'z'))) return false;
+			
 	}
 	return true;
 }
 
-bool bankAccount::controlPhoneNumber(string PhoneNumber)
+bool bankAccount::controlPhoneNumber(string phoneNumber)
 {
-	if (PhoneNumber[0] != 0 && PhoneNumber.length() != 11)
+	if (phoneNumber.empty())
+	{
+		return true;
+	}
+	if (phoneNumber.length() != 11)
 	{
 		return false;
 	}
-	else return true;
+	
+
+	for (unsigned i = 0; i < phoneNumber.length() ; i++)
+	{
+		if (!((phoneNumber.at(i) >= '0') && (phoneNumber.at(i) < '9')))
+		{
+			return false;
+		}
+	}
+	return true;
 }
 
+void bankAccount::setPersonName(string name)
+{
+	personName = name;
+}
+
+void bankAccount::setPersonSurname(string surname)
+{
+	personSurname = surname;
+}
+
+void bankAccount::setPersonName(string phoneNumber)
+{
+	personPhone = phoneNumber;
+}
+
+void bankAccount::displayProfile()
+{
+	cout << "----------------------------------" << endl;
+	cout << personName << " " << personSurname << " " << personPhone << endl;
+	cout << "----------------------------------" << endl;
+}

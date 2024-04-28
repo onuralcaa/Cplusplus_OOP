@@ -6,6 +6,7 @@
 
 int main()
 {
+    bankAccount bankAcc(Onur, ALACA, 32, 25235242);
 
 
 
