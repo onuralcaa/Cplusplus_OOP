@@ -15,8 +15,20 @@ int main()
 
     mainDate.displayDate();
 
-    Date mainDate2;
+    Date mainDate2(3, 2, 1944);
     mainDate2.displayDate();
+
+
+    mainDate.compareDate(mainDate2); //compare test
+
+    cout << "-----------------------------------------" << endl;
+    for (int i = 0 ; i < 30 ; i++)
+    {
+        mainDate2.increaseDay();
+        mainDate2.displayDate();
+
+    }
+
 
     return 0;
 }

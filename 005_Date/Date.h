@@ -104,9 +104,45 @@ void Date::displayDate()
 	cout << day << " " << monthString[month - 1] << " " << year << endl;
 }
 
+void Date::increaseDay()
+{
+	if (day < monthDays[month - 1])
+	{
+		day++;
+	}
+	else
+	{
+		day = 1;
+		month++;
 
+		if (month < 12) month++;
+		else
+		{
+			month = 1;
+			year++;
+		}
+	}
 
+}
 
+void Date::compareDate(const Date& othDate)
+{
+	long firstDay, secondDay;
+
+	firstDay = year * 365 + month * 30 + day;
+	secondDay = othDate.year * 365 + othDate.month * 30 + othDate.day;
+
+	if (firstDay > secondDay)
+	{
+		cout << "First date is greater." << endl;
+	}
+	else if (firstDay < secondDay)
+	{
+		cout << "Second date is greater." << endl;
+	}
+	else
+		cout << "Dates are equal." << endl;
+}
 
 
 
