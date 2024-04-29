@@ -13,7 +13,7 @@ public:
 	bool controlNameSurname(string nameOrSurname);
 	bool controlPhoneNumber(string PhoneNumber);
 	void displayProfile();
-	void credit(float);
+	void Credit(float amount);
 	void withDraw(float);
 	void sendMoney(bankAccount& othAccount, float amount);
 	void setPersonName(string name);
@@ -141,7 +141,32 @@ void bankAccount::setPersonBalance(float balance)
 
 void bankAccount::displayProfile()
 {
-	cout << "----------------------------------" << endl;
-	cout << personName << " " << personSurname << " " << personPhone << endl;
-	cout << "----------------------------------" << endl;
+	cout << "---------showing profile infos-------------" << endl;
+	cout << personName << " " << personSurname <<" " <<accountBalance<<endl;
+	if (!personPhone.empty())
+	{
+		cout << personPhone << endl;
+	}
+	else cout << "Phone number : none." << endl;
+	cout << "-------------------------------------------" << endl;
+}
+
+void bankAccount::Credit(float amount)
+{
+	while (amount <= 0)
+	{
+		cout << "Invalid amount, please enter valid amount :";
+		cin >> amount;
+	}
+	accountBalance += amount;
+}
+
+void bankAccount::withDraw(float amount)
+{
+	while (amount <= 0 || amount > accountBalance)
+	{
+		cout << "Invalid amount, please enter valid amount :";
+		cin >> amount;
+	}
+	accountBalance -= amount;
 }

@@ -14,9 +14,15 @@ int main()
     cout << "Balance : " << acc1.getPersonBalance() << endl;
 
     bankAccount acc2 = acc1; //copy cons
+    acc2.setPersonName("Turan");
+
+
+    acc1.Credit(456);
+    acc2.withDraw(58);
+
 
     acc2.displayProfile(); //test
-
+    acc1.displayProfile();
 
 
 
