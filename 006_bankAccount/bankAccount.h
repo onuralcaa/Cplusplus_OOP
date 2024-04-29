@@ -170,3 +170,14 @@ void bankAccount::withDraw(float amount)
 	}
 	accountBalance -= amount;
 }
+
+void bankAccount::sendMoney(bankAccount& oth, float amount)
+{
+	while (amount <= 0 || amount > accountBalance)
+	{
+		cout << "Invalid amount, please enter valid amount :";
+		cin >> amount;
+	}
+	accountBalance -= amount;
+	oth.accountBalance += amount;
+}

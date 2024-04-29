@@ -24,6 +24,12 @@ int main()
     acc2.displayProfile(); //test
     acc1.displayProfile();
 
+    bankAccount acc3("Rahime", "COT", 3221);
+    acc3.displayProfile(); //test
+    acc1.sendMoney(acc3, 423);
+
+    acc3.displayProfile(); //test
+    acc1.displayProfile();
 
 
     return 0;
