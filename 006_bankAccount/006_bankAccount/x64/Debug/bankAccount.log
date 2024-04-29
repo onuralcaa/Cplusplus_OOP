@@ -1,0 +1,8 @@
+﻿  bankAccount.cpp
+C:\Users\onura\OneDrive\Masaüstü\Kişisel Çalışmalarım\C++ OOP\bankAccount\bankAccount.h(106,19): error C2084: function 'void bankAccount::setPersonName(std::string)' already has a body
+  (compiling source file 'bankAccount.cpp')
+  C:\Users\onura\OneDrive\Masaüstü\Kişisel Çalışmalarım\C++ OOP\bankAccount\bankAccount.h(96,19):
+  see previous definition of 'setPersonName'
+  
+C:\Users\onura\OneDrive\Masaüstü\Kişisel Çalışmalarım\C++ OOP\bankAccount\bankAccount.cpp(9,25): error C2065: 'Onur': undeclared identifier
+C:\Users\onura\OneDrive\Masaüstü\Kişisel Çalışmalarım\C++ OOP\bankAccount\bankAccount.cpp(9,31): error C2065: 'ALACA': undeclared identifier
