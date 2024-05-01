@@ -98,3 +98,27 @@ void Matrix::display()
 	}
 	cout << "\n";
 }
+
+void Matrix::randomSet()
+{
+	srand(time(NULL));
+	for (int i = 0; i < row ; i++)
+	{
+		for(int j = 0 ; j < col ; j++)
+		{
+			matrix[i][j] = rand() % 10; //0-9
+		}
+	}
+}
+
+void Matrix::identityMatrixSet()
+{
+	for (int i = 0; i < row; i++)
+	{
+		for (int j = 0; j < col; j++)
+		{
+			if (i == j) matrix[i][j] = 1;
+			else matrix[i][j] = 0;
+		}
+	}
+}

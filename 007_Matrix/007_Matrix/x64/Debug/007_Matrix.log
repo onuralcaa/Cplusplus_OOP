@@ -1,2 +1,5 @@
 ﻿  007_Matrix.cpp
+C:\Users\onura\OneDrive\Masaüstü\Kişisel Çalışmalarım\C++ OOP\007_Matrix\Matrix.h(104,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  (compiling source file '007_Matrix.cpp')
+  
   007_Matrix.vcxproj -> C:\Users\onura\OneDrive\Masaüstü\Kişisel Çalışmalarım\C++ OOP\007_Matrix\x64\Debug\007_Matrix.exe

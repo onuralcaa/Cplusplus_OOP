@@ -19,7 +19,11 @@ int main()
 
 	mainMatrix.display();
 
-	Matrix mainMatrix2 = mainMatrix;
+	Matrix mainMatrix2;
+	Matrix mainMatrix3 = mainMatrix;
+	//mainMatrix2.randomSet();
+
+	mainMatrix2.identityMatrixSet();
 	mainMatrix2.display();
 
 
