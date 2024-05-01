@@ -26,6 +26,7 @@ int main()
 	mainMatrix2.identityMatrixSet();
 	mainMatrix2.display();
 
+	mainMatrix.addMatrix(mainMatrix2);
 
 	return 0;
 }

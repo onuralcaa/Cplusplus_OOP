@@ -17,7 +17,7 @@ public:
 	void randomSet();
 	void identityMatrixSet();
 	void display();
-	void addMatrix(Matrix& othMatrix);
+	void addMatrix(const Matrix& othMatrix);
 };
 
 Matrix::Matrix(int r, int c)
@@ -121,4 +121,24 @@ void Matrix::identityMatrixSet()
 			else matrix[i][j] = 0;
 		}
 	}
+}
+
+void Matrix::addMatrix(const Matrix& othMatrix)
+{
+	//condition
+	if (row != othMatrix.row || col != othMatrix.col)
+	{
+		cout << "Row and Col should be equal." << endl;
+	}
+	Matrix result(row, col);
+
+	for (int i = 0; i < result.row; i++)
+	{
+		for (int j = 0; j < result.col; j++)
+		{
+			result.matrix[i][j] = matrix[i][j] + othMatrix.matrix[i][j];
+		}
+	}
+
+	result.display();
 }
